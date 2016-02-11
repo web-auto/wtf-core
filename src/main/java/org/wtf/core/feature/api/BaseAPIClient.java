@@ -22,7 +22,7 @@ import org.wtf.core.BaseHttpClient;
 public class BaseAPIClient extends BaseHttpClient {
 
   public BaseAPIClient() {
-    super("http://eazye.qa.ebay.com/ws/api.dll");
+    super("");
   }
   public BaseAPIClient(String serverURL) {
     super(serverURL);
